@@ -1,7 +1,5 @@
-package com.tpe.manytomany;
+package com.tpe.moneytomoney;
 
-import com.tpe.onetomany_bi.Company3;
-import com.tpe.onetomany_bi.Developer06;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

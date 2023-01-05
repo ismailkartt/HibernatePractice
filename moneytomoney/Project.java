@@ -1,4 +1,4 @@
-package com.tpe.manytomany;
+package com.tpe.moneytomoney;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -13,7 +13,7 @@ public class Project {
 
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "project_dev", joinColumns = @JoinColumn(name = "project_id"),
-                                      inverseJoinColumns = @JoinColumn(name = "dev_id"))
+            inverseJoinColumns = @JoinColumn(name = "dev_id"))
     private Set<Developer07> developers=new HashSet<>();
 
     public Project() {

@@ -1,6 +1,4 @@
-package com.tpe.manytomany;
-
-import com.tpe.onetomany_bi.Company3;
+package com.tpe.moneytomoney;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -9,6 +7,7 @@ import java.util.Set;
 @Entity
 @Table(name = "t_developer7")
 public class Developer07 {
+
     @Id
     private Long id;
 
@@ -83,4 +82,7 @@ public class Developer07 {
                 ", branch='" + branch + '\'' +
                 '}';
     }
+
+
+
 }
